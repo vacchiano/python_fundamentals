@@ -30,3 +30,13 @@ def valGreater(myList):
     print (len(newList))
     return newList
 # print(valGreater([3,2,3,1,3,4]))
+
+#This Length, That Value
+def lenValue(theLen, theVal):
+    myList = []
+    for i in range(theLen):
+        myList.append(theVal)
+        i+=1
+    return myList
+
+# print(lenValue(5,3))
