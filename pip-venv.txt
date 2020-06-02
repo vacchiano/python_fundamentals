@@ -1,0 +1,28 @@
+Dom Vacchiano
+Practice Pip & Venv
+
+- Activate venv
+>>> source /pythEnv/Scripts/activate
+
+install Django = installs the Django package in the venv
+
+pip list before vs after:
+---- Before----------
+Package    Version
+---------- -------
+pip        19.2.3
+setuptools 41.2.0
+
+---- After ----------
+Package    Version
+---------- -------
+Django     1.11.9
+pip        19.2.3
+pytz       2020.1
+setuptools 41.2.0
+
+pip freeze shows all installs that have been made (not just current packages)
+
+pip uninstall Django removes the package
+
+pip search Flask searched for installable packages with title containing Flask
