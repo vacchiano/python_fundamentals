@@ -1,3 +1,5 @@
+# Numero Uno
+
 # iterate through lists
 x = [ [5,2,3], [10,8,9] ] 
 students = [
@@ -29,3 +31,25 @@ z = [ {'x': 10, 'y': 20} ]
 # print(z)
 # z[0]['y'] = 30
 # print(z)
+
+# Numero Dos
+# Iterate Through a List of Dictionaries
+
+def iterateDictionary(myList):
+    for i in myList:
+        print("\n")
+        for x,y in i.items():
+            print(x,"-",y)
+
+students = [
+         {'first_name':  'Michael', 'last_name' : 'Jordan'},
+         {'first_name' : 'John', 'last_name' : 'Rosales'},
+         {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+         {'first_name' : 'KB', 'last_name' : 'Tonel'}
+    ]
+
+my_dict = {'first_name':  'Michael', 'last_name' : 'Jordan'}
+iterateDictionary(students) 
+
+# eachStudent = my_dict.items()
+# print(eachStudent)
