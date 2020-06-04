@@ -1,4 +1,4 @@
-# Numero Uno
+# =============== Numero 1 ==================
 
 # iterate through lists
 x = [ [5,2,3], [10,8,9] ] 
@@ -32,7 +32,7 @@ z = [ {'x': 10, 'y': 20} ]
 # z[0]['y'] = 30
 # print(z)
 
-# Numero Dos
+# =============== Numero 2 ================
 # Iterate Through a List of Dictionaries
 
 def iterateDictionary(myList):
@@ -49,7 +49,19 @@ students = [
     ]
 
 my_dict = {'first_name':  'Michael', 'last_name' : 'Jordan'}
-iterateDictionary(students) 
+#iterateDictionary(students) 
 
 # eachStudent = my_dict.items()
 # print(eachStudent)
+
+# ========== number 3 ===============
+# get values from a list of dictionaries
+
+def iterateDictionary2(key_name, some_list):
+    for i in some_list:
+        print(i[key_name])
+
+iterateDictionary2(key_name='last_name', some_list=students)
+
+# ================ Number 4 ============
+#Iterate through a dictionary with list values
