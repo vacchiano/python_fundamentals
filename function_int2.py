@@ -61,7 +61,20 @@ def iterateDictionary2(key_name, some_list):
     for i in some_list:
         print(i[key_name])
 
-iterateDictionary2(key_name='last_name', some_list=students)
+#iterateDictionary2(key_name='last_name', some_list=students)
 
 # ================ Number 4 ============
 #Iterate through a dictionary with list values
+
+def printInfo(some_dict):
+    for x,y in some_dict.items():
+        print(len(y),x.upper())
+        for item in y:
+            print(item)
+        print("") #adds new line between lists
+
+dojo = {
+   'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
+   'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
+}
+printInfo(dojo)
